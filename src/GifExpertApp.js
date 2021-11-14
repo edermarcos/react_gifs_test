@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
 import { AddCategory } from './components/AddCategory';
+import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
-  const [categories, setCategory] = useState(['One Punch', 'Samurai X', 'Dragon Ball']);
+  const [categories, setCategory] = useState(['xmen']);
 
-  // const handleAdd = () => {
-  //   setCategory(['HunterXHunter', ...categories]);
-  // };
+  const deleteCategoryById = (category) => {
+    setCategory([...categories.filter((cat) => cat !== category)]);
+  };
 
   return (
     <>
@@ -15,13 +16,14 @@ export const GifExpertApp = () => {
       <AddCategory setCategory={ setCategory }/>
       <hr/>
 
-      <ul>
-        {
-          categories.map((category) => {
-            return <li key={ category }>{ category }</li>;
-          })
-        }
-      </ul>
+      {
+        categories.map((category) => (
+          <GifGrid key={ category }
+                   category={ category }
+                   deleteCategoryById={ deleteCategoryById }
+          />
+        ))
+      }
     </>
   );
 };
