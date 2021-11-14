@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/edermarcos/react_gifs_test/static/css/main.656a7c10.chunk.css",
+    "main.js": "/edermarcos/react_gifs_test/static/js/main.2f3df875.chunk.js",
+    "main.js.map": "/edermarcos/react_gifs_test/static/js/main.2f3df875.chunk.js.map",
+    "runtime-main.js": "/edermarcos/react_gifs_test/static/js/runtime-main.c0acf005.js",
+    "runtime-main.js.map": "/edermarcos/react_gifs_test/static/js/runtime-main.c0acf005.js.map",
+    "static/js/2.6ca07f6a.chunk.js": "/edermarcos/react_gifs_test/static/js/2.6ca07f6a.chunk.js",
+    "static/js/2.6ca07f6a.chunk.js.map": "/edermarcos/react_gifs_test/static/js/2.6ca07f6a.chunk.js.map",
+    "index.html": "/edermarcos/react_gifs_test/index.html",
+    "static/css/main.656a7c10.chunk.css.map": "/edermarcos/react_gifs_test/static/css/main.656a7c10.chunk.css.map",
+    "static/js/2.6ca07f6a.chunk.js.LICENSE.txt": "/edermarcos/react_gifs_test/static/js/2.6ca07f6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0acf005.js",
+    "static/js/2.6ca07f6a.chunk.js",
+    "static/css/main.656a7c10.chunk.css",
+    "static/js/main.2f3df875.chunk.js"
+  ]
+}
