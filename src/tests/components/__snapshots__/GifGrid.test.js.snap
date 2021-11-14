@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for the component <GifGrid /> should render correctly 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h3>
+      Category: 
+      One Punch
+    </h3>
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</div>
+`;
